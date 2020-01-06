@@ -1,0 +1,22 @@
+.socialmedia ul {
+    padding-top: 1em;
+    border-right: none;
+}
+
+.topbutton ul {
+    margin: 0;
+    padding: 0;
+}
+.topbutton li {
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.topbutton {
+    position: fixed;
+    bottom: -10px;
+    right: -60px;
+    width: 200px;
+}
