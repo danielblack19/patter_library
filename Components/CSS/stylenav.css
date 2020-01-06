@@ -1,0 +1,60 @@
+/*-------- CSS Reset ------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+
+
+/*------- Nav -------*/
+
+nav {
+    position: fixed;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #3eb1f3;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+    top: 0;
+    left: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+    width: 100%;
+    position: center;
+    text-align: center;
+}
+
+
+ul a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 2em;
+    text-emphasis: none;
+}
+
+.navigation li {
+    list-style: none;
+    width: 80%;
+    border-right : 2px solid rgba(0, 0, 0, 0.856);
+   
+}
